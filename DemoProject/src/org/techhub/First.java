@@ -11,6 +11,7 @@ public class First {
 		{
 			System.out.println(s);
 		}
+		System.out.println("updation");
 	}
 
 }
