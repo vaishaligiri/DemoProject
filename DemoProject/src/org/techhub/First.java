@@ -6,9 +6,10 @@ public class First {
 		// TODO Auto-generated method stub
 
 		String str[]= {"ram@gmail.com,shyam@gmail.com"};
-		for(int i=0;i<str.length;i++)
+		
+		for(String s:str)
 		{
-			System.out.println("Good Morning");
+			System.out.println(s);
 		}
 		System.out.println("Good Afternoon");
 	}
